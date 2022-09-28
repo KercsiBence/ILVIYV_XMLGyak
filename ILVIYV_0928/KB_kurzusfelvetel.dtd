@@ -1,0 +1,27 @@
+<!ELEMENT KB_kurzusfelvetel>
+    <!ATTLIST KB_kurzufelvetel 
+                tanev #CDATA #REQUIRED
+                egyetem #CDATA #FIXED "ME">
+    
+<!ELEMENT hallgato (hnev, szulev,szak+)>
+    <!ATTLIST  hallgato id #PCDATA #REQUIRED>
+
+<!ELEMENT hnev (#PCDATA)>
+<!ELEMENT szulev (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+    <!ATTLIST szak evf #CDATA>
+
+<!ELEMENT kurzusok (kurzus)*>
+
+<!ELEMENT kurzus (kurzusnev,kredit,hely,idopont+,oktato?)>
+    <!ATTLIST kurzus 
+                id ID #REQUIRED 
+                jovahagyas="nem"
+                nyelv="magyar">
+
+<!ELEMENT kurzusnev (#PCDATA)>
+<!ELEMENT kredit (#PCDATA)>
+<!ELEMENT hely (#PCDATA)>
+<!ELEMENT idopont (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+
