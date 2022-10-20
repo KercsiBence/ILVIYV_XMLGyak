@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>Ez egy cim</cim>
+    <helyszin>Miskolc</helyszin>
+    <datum>2022-10-10</datum>
+    <eloado>
+        <nev>EloadoNev</nev>
+        <lakcim>Eloadolakcim</lakcim>
+        <adoszam>eloadoAdoszam</adoszam>
+    </eloado>
+    <hallgatok>
+        <hallgato>
+            <nev>hallgatoNev</nev>
+            <lakcim>hallgatoLakcim</lakcim>
+        </hallgato>
+    </hallgatok>
+</konferencia>
