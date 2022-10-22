@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+
+
+<xs:element name="hnev" type="xs:string">
+<xs:element name="szulev" type="xs:string">
+<xs:element name="szak" type="xs:string">
+<xs:element name="kurzusnev" type="xs:string">
+<xs:element name="kredit" type="xs:string">
+<xs:element name="hely" type="xs:string">
+<xs:element name="idopont" type="xs:string">
+<xs:element name="oktato" type="xs:string">
+
+
+    <xs:element name="KB__kurzusfelvetel">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="hallgato">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="hnev">
+                            <xs:element ref="szulev" >
+                            <xs:element ref="szak">
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            
+                <xs:element name="kurzusok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="kurzus">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="kurzusnev">
+                                        <xs:element ref="kredit" >
+                                        <xs:element ref="hely">
+                                        <xs:element ref="idopont">
+                                        <xs:element ref="oktato" >
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<KB_orarend>
+        <ora id="VALAMI" tipus="VALAMI">
+            <targy>VALAMI</targy>
+            <idopont>
+                <nap>VALAMI</nap>
+                <tol>VALAMI</tol>
+                <ig>VALAMI</ig>
+            </idopont>
+            <helyszin>VALAMI</helyszin>
+            <oktato>VALAMI</oktato>
+            <szak>VALAMI</szak>
+        </ora>
+        <ora id="VALAMI" tipus="VALAMI">
+            <targy>VALAMI</targy>
+            <idopont>
+                <nap>VALAMI</nap>
+                <tol>VALAMI</tol>
+                <ig>VALAMI</ig>
+            </idopont>
+            <helyszin>VALAMI</helyszin>
+            <oktato>VALAMI</oktato>
+            <szak>VALAMI</szak>
+        </ora>
+</KB_orarend>
+    
