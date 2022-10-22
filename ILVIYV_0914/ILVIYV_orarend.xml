@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <KB_orarend>
-    <kedd>
         <ora id="VALAMI" tipus="VALAMI">
             <targy>VALAMI</targy>
             <idopont>
@@ -13,8 +12,6 @@
             <oktato>VALAMI</oktato>
             <szak>VALAMI</szak>
         </ora>
-    </kedd>
-    <szerda>
         <ora id="VALAMI" tipus="VALAMI">
             <targy>VALAMI</targy>
             <idopont>
@@ -26,6 +23,5 @@
             <oktato>VALAMI</oktato>
             <szak>VALAMI</szak>
         </ora>
-    </szerda>
 </KB_orarend>
     

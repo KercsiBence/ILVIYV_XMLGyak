@@ -1,0 +1,16 @@
+<!ELEMENT KB_orarend (ora+)>
+
+<!ELEMENT ora (targy,idopont,helszin,oktato,szak)>
+<!ATTLIST ora id ID #REQUIRED>
+<!ATTLIST ora tipus CDATA #REQUIRED>
+
+<!ELEMENT targy (#PCDATA)>
+
+<!ELEMENT idopont (nap,tol,ig)>
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT tol (#PCDATA)>
+<!ELEMENT ig (#PCDATA)>
+
+<!ELEMENT helszin (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>

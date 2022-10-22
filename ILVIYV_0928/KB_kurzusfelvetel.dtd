@@ -1,15 +1,15 @@
-<!ELEMENT KB_kurzusfelvetel>
-    <!ATTLIST KB_kurzufelvetel 
-                tanev #CDATA #REQUIRED
-                egyetem #CDATA #FIXED "ME">
+<!ELEMENT KB_kurzusfelvetel (kurzusok+, hallgato+ )>
+<!ATTLIST KB_kurzufelvetel tanev CDATA #REQUIRED>
+<!ATTLIST KB_kurzufelvetel egyetem CDATA #FIXED "ME">
+                
     
 <!ELEMENT hallgato (hnev, szulev,szak+)>
-    <!ATTLIST  hallgato id #PCDATA #REQUIRED>
+    <!ATTLIST  hallgato id CDATA #REQUIRED>
 
 <!ELEMENT hnev (#PCDATA)>
 <!ELEMENT szulev (#PCDATA)>
 <!ELEMENT szak (#PCDATA)>
-    <!ATTLIST szak evf #CDATA>
+    <!ATTLIST szak evf CDATA >
 
 <!ELEMENT kurzusok (kurzus)*>
 
