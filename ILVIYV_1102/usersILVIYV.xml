@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE users>
+
+
+<users>
+    <user>
+        <userID>1</userID>
+        <firstName>Kis</firstName>
+        <lastName>Bence</lastName>
+        <profession>Programozo</profession>
+    </user>
+    <user>
+        <userID>2</userID>
+        <firstName>Nagy</firstName>
+        <lastName>Bela</lastName>
+        <profession>Pultos</profession>
+    </user>
+    <user>
+        <userID>3</userID>
+        <firstName>Kozepes</firstName>
+        <lastName>Benedek</lastName>
+        <profession>Biciklis</profession>
+    </user>
+
+</users>
