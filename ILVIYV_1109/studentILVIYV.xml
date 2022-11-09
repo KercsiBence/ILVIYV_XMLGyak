@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <student id="01">
+        <keresztnév>Első</keresztnév>
+        <vezetéknév>Második</vezetéknév>
+        <becenév>Harmadik</becenév>
+        <kor>1</kor>
+    </student>
+    <student id="02">
+        <keresztnév>Negyedik</keresztnév>
+        <vezetéknév>Ötödik</vezetéknév>
+        <becenév>Hatodik</becenév>
+        <kor>2</kor>
+    </student>
+    <student id="03">
+        <keresztnév>Hetedik</keresztnév>
+        <vezetéknév>Nyolcadik</vezetéknév>
+        <becenév>Kilencedik</becenév>
+        <kor>3</kor>
+    </student>
+</class>
