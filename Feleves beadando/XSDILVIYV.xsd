@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="XMLILVIYV">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="vevők">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="vevő">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="név" type="xs:string"/>
+                                    <xs:element name="email" type="xs:string"/>
+                                    <xs:element name="telefonszám" type="xs:int"/>
+                                    <xs:element name="cím">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="irányítószám" type="xs:int"/>
+                                                <xs:element name="város" type="xs:string"/>
+                                                <xs:element name="utca" type="xs:string"/>
+                                                <xs:element name="házszám" type="xs:int"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="rendelések">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="rendelés">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="státusz" type="xs:string"/>
+                                                            <xs:element name="leadási_ideje" type="xs:string"/>
+                                                            <xs:element name="szállítási_ideje" type="xs:string"/>
+                                                            <xs:element name="tranzakció">
+                                                                <xs:complexType>
+                                                                    <xs:sequence>
+                                                                        <xs:element name="összeg" type="xs:int"/>
+                                                                        <xs:element name="kitől" type="xs:int"/>
+                                                                        <xs:element name="kinek" type="xs:int"/>
+                                                                        <xs:element name="közlemény" type="xs:string"/>
+                                                                    </xs:sequence>
+                                                                    <xs:attribute name="id" type="xs:int"/>
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="ételek">
+                                                                <xs:complexType>
+                                                                    <xs:sequence>
+                                                                        <xs:element name="étel">
+                                                                            <xs:complexType>
+                                                                                <xs:sequence>
+                                                                                    <xs:element name="ár" type="xs:int"/>
+                                                                                    <xs:element name="elkészítési_idő" type="xs:int"/>
+                                                                                    <xs:element name="allergének" type="xs:string"/>
+                                                                                    <xs:element name="éttermek">
+                                                                                        <xs:complexType>
+                                                                                            <xs:sequence>
+                                                                                                <xs:element name="étterem">
+                                                                                                    <xs:complexType>
+                                                                                                        <xs:sequence>
+                                                                                                            <xs:element name="cím" type="xs:string"/>
+                                                                                                            <xs:element name="név" type="xs:string"/>
+                                                                                                            <xs:element name="értékelés" type="xs:double"/> 
+                                                                                                        </xs:sequence>
+                                                                                                        <xs:attribute name="id" type="xs:int"/>
+                                                                                                    </xs:complexType>
+                                                                                                </xs:element>
+                                                                                            </xs:sequence>
+                                                                                        </xs:complexType>
+                                                                                    </xs:element>
+                                                                                </xs:sequence>
+                                                                                <xs:attribute name="név" type="xs:string"/>
+                                                                            </xs:complexType>
+                                                                        </xs:element>
+                                                                    </xs:sequence>
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="futár">
+                                                                <xs:complexType>
+                                                                    <xs:sequence>
+                                                                        <xs:element name="név" type="xs:string"/>
+                                                                        <xs:element name="helyzet" type="xs:string"/>
+                                                                        <xs:element name="közlekedés" type="xs:string"/> 
+                                                                    </xs:sequence>
+                                                                    <xs:attribute name="id" type="xs:int"/>
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                        </xs:sequence>
+                                                        <xs:attribute name="id" type="xs:int"/>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="id" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

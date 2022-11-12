@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <XMLILVIYV>
     <vevők>
-        <vevő id="">
-            <név></név>
-            <email></email>
-            <telefonszám></telefonszám>
+        <vevő id="1">
+            <név>Kércsi Bence</név>
+            <email>kercsibence1@gmail.com</email>
+            <telefonszám>01234567890</telefonszám>
             <cím>
-                <irányítószám></irányítószám>
-                <város></város>
-                <utca></utca>
-                <házszám></házszám>
+                <irányítószám>3535</irányítószám>
+                <város>Miskolc</város>
+                <utca>Szentgyörgy</utca>
+                <házszám>1</házszám>
             </cím>
             <rendelések>
-                <rendelés id="">
-                    <státusz></státusz>
-                    <leadási_ideje></leadási_ideje>
-                    <szállítási_ideje></szállítási_ideje>
-                    <tranzakció id="">
-                        <összeg></összeg>
-                        <kitől></kitől>
-                        <kinek></kinek>
-                        <közlemény></közlemény>
+                <rendelés id="1">
+                    <státusz>Aktív</státusz>
+                    <leadási_ideje>2022-11-10 14:30</leadási_ideje>
+                    <szállítási_ideje>2022-11-10 15:45</szállítási_ideje>
+                    <tranzakció id="1">
+                        <összeg>5000</összeg>
+                        <kitől>1111</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Rántott hús</közlemény>
                     </tranzakció>
                     <ételek>
-                        <étel név="">
-                            <ár></ár>
-                            <elkészítési_idő></elkészítési_idő>
-                            <allergének></allergének>
+                        <étel név="Rántott hús">
+                            <ár>5000</ár>
+                            <elkészítési_idő>32</elkészítési_idő>
+                            <allergének>Glutén</allergének>
                             <éttermek>
-                                <étterem id="">
-                                    <cím></cím>
-                                    <név></név>
-                                    <értékelés></értékelés>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
                                 </étterem>
                             </éttermek>
                         </étel>
                     </ételek>
-                    <futár id="">
-                        <név></név>
-                        <helyzet></helyzet>
-                        <közlekedés></közlekedés>
+                    <futár id="1">
+                        <név>Sándy</név>
+                        <helyzet>Avas</helyzet>
+                        <közlekedés>Bicikli</közlekedés>
                     </futár>
                 </rendelés>
             </rendelések>

@@ -38,3 +38,4 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+</xsd:schema>
