@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMLILVIYV>
+    <vevők>
+        <vevő id="">
+            <név></név>
+            <email></email>
+            <telefonszám></telefonszám>
+            <cím>
+                <irányítószám></irányítószám>
+                <város></város>
+                <utca></utca>
+                <házszám></házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="">
+                    <státusz></státusz>
+                    <leadási_ideje></leadási_ideje>
+                    <szállítási_ideje></szállítási_ideje>
+                    <tranzakció id="">
+                        <összeg></összeg>
+                        <kitől></kitől>
+                        <kinek></kinek>
+                        <közlemény></közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="">
+                            <ár></ár>
+                            <elkészítési_idő></elkészítési_idő>
+                            <allergének></allergének>
+                            <éttermek>
+                                <étterem id="">
+                                    <cím></cím>
+                                    <név></név>
+                                    <értékelés></értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="">
+                        <név></név>
+                        <helyzet></helyzet>
+                        <közlekedés></közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+    </vevők>
+</XMLILVIYV>
