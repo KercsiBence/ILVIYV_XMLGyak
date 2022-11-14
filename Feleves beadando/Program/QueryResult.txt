@@ -1,4 +1,39 @@
 
 
+Aktuális elem: rendelés
+Az összes rendelés
+Rendelés ID: 1
+--------------------------------------
+
+Aktuális elem: rendelés
+Az összes rendelés
+Rendelés ID: 2
+--------------------------------------
+
+Aktuális elem: rendelés
+Az összes rendelés
+Rendelés ID: 3
+--------------------------------------
 
 
+Aktuális elem: tranzakció
+A rendelés aminek tranzakció ID-ja 2
+Rendelés ID: 2
+--------------------------------------
+
+
+Aktuális elem: tranzakció
+A 4000-nél drágább rendelések
+Rendelés ID: 1
+--------------------------------------
+
+
+Aktuális elem: rendelés
+Aktív státuszú rendelések
+Rendelés ID: 1
+--------------------------------------
+
+Aktuális elem: rendelés
+Aktív státuszú rendelések
+Rendelés ID: 3
+--------------------------------------
