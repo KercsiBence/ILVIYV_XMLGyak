@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><XMLILVIYV>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDILVIYV.xsd"&gt;
+    <vevők>
+        <vevő id="1">
+            <név>Kércsi Bence</név>
+            <email>kercsibence1@gmail.com</email>
+            <telefonszám>01234567890</telefonszám>
+            <cím>
+                <irányítószám>3535</irányítószám>
+                <város>Miskolc</város>
+                <utca>Szentgyörgy</utca>
+                <házszám>1</házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="1">
+                    <étterem_id>1</étterem_id>
+                    <státusz>Aktív</státusz>
+                    <leadási_ideje>2022-11-10 14:30</leadási_ideje>
+                    <szállítási_ideje>2022-11-10 15:45</szállítási_ideje>
+                    <tranzakció id="1">
+                        <összeg>4500</összeg>
+                        <kitől>111</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Rántott hús + Töltött káposzta</közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="Rántott hús">
+                            <ár>2000</ár>
+                            <elkészítési_idő>32</elkészítési_idő>
+                            <allergének>Glutén</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                        <étel név="Töltött káposzta">
+                            <ár>2500</ár>
+                            <elkészítési_idő>65</elkészítési_idő>
+                            <allergének>Laktóz</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="1">
+                        <név>Sándy1</név>
+                        <helyzet>Avas</helyzet>
+                        <közlekedés>Bicikli</közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+        <vevő id="2">
+            <név>Glonczi Bence</név>
+            <email>glonczibence@gmail.com</email>
+            <telefonszám>01234567891</telefonszám>
+            <cím>
+                <irányítószám>3535</irányítószám>
+                <város>Miskolc</város>
+                <utca>Szentgyörgy</utca>
+                <házszám>2</házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="2">
+                    <étterem_id>1</étterem_id>
+                    <státusz>Kiszállítás alatt</státusz>
+                    <leadási_ideje>2022-11-10 12:20</leadási_ideje>
+                    <szállítási_ideje>2022-11-10 16:35</szállítási_ideje>
+                    <tranzakció id="2">
+                        <összeg>3500</összeg>
+                        <kitől>222</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Rántott hús + Borsó leves</közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="Rántott hús">
+                            <ár>2000</ár>
+                            <elkészítési_idő>32</elkészítési_idő>
+                            <allergének>Glutén</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                        <étel név="Borsó leves">
+                            <ár>1500</ár>
+                            <elkészítési_idő>65</elkészítési_idő>
+                            <allergének>Laktóz</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                                <étterem id="3">
+                                    <cím>Példa cím 3</cím>
+                                    <név>Példa étterem 3</név>
+                                    <értékelés>4.1</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="2">
+                        <név>Sándor1</név>
+                        <helyzet>Tapolca</helyzet>
+                        <közlekedés>Roller</közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+        <vevő id="3">
+            <név>Kopasz János</név>
+            <email>kopaszjanos@gmail.com</email>
+            <telefonszám>01234567892</telefonszám>
+            <cím>
+                <irányítószám>3535</irányítószám>
+                <város>Miskolc</város>
+                <utca>Arany János</utca>
+                <házszám>1</házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="3">
+                    <étterem_id>2</étterem_id>
+                    <státusz>Aktív</státusz>
+                    <leadási_ideje>2022-11-10 12:20</leadási_ideje>
+                    <szállítási_ideje>2022-11-11 11:45</szállítási_ideje>
+                    <tranzakció id="3">
+                        <összeg>3500</összeg>
+                        <kitől>333</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Hamburger</közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="Hamburger">
+                            <ár>2500</ár>
+                            <elkészítési_idő>15</elkészítési_idő>
+                            <allergének>Glutén, laktóz</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                                <étterem id="2">
+                                    <cím>Példa cím 2</cím>
+                                    <név>Példa étterem 2</név>
+                                    <értékelés>3.8</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="3">
+                        <név>Shándor1</név>
+                        <helyzet>Egyetem</helyzet>
+                        <közlekedés>Görkori</közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+    </vevők>
+</XMLILVIYV>

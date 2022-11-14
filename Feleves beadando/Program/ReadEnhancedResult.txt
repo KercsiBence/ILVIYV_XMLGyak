@@ -1,0 +1,112 @@
+
+A vevő ID-ja: 1
+A vevő neve: Kércsi Bence
+A vevő email címe: kercsibence1@gmail.com
+A vevő telefonszáma: 01234567890
+A vevő címének irányítószáma: 3535
+A vevő városa: Miskolc
+A vevő utcája: Szentgyörgy
+A vevő házszáma: 1
+	A rendelés ID-ja: 1
+	A rendelés éttermének ID-ja: 1
+	A rendelés státusza: Aktív
+	A rendelés leadási ideje: 2022-11-10 14:30
+	A rendelés szállítási ideje: 2022-11-10 15:45
+	A tranzakció ID-ja: 1
+	A tranzakció összege: 4500
+	A tranzakció feladója: 111
+	A tranzakció kedvezményezettje: 000
+	A tranzakció közleménye: Rántott hús + Töltött káposzta
+		Az étel neve: Rántott hús
+		Az étel ára: 2000
+		Az étel elkészítési ideje: 32
+		Az ételben lévő allergének: Glutén
+			Az étterem ID-ja: 1
+			Az étterem címe: Példa cím 1
+			Az étterem neve: Példa étterem 1
+			Az étterem értékelése: 4.5
+		Az étel neve: Töltött káposzta
+		Az étel ára: 2500
+		Az étel elkészítési ideje: 65
+		Az ételben lévő allergének: Laktóz
+			Az étterem ID-ja: 1
+			Az étterem címe: Példa cím 1
+			Az étterem neve: Példa étterem 1
+			Az étterem értékelése: 4.5
+	A futár ID-ja: 1
+	A futár neve: Sándy
+	A futár helyzete: Avas
+	A futár közlekedésének módja: Bicikli
+
+
+A vevő ID-ja: 2
+A vevő neve: Glonczi Bence
+A vevő email címe: glonczibence@gmail.com
+A vevő telefonszáma: 01234567891
+A vevő címének irányítószáma: 3535
+A vevő városa: Miskolc
+A vevő utcája: Szentgyörgy
+A vevő házszáma: 2
+	A rendelés ID-ja: 2
+	A rendelés éttermének ID-ja: 1
+	A rendelés státusza: Kiszállítás alatt
+	A rendelés leadási ideje: 2022-11-10 12:20
+	A rendelés szállítási ideje: 2022-11-10 16:35
+	A tranzakció ID-ja: 2
+	A tranzakció összege: 3500
+	A tranzakció feladója: 222
+	A tranzakció kedvezményezettje: 000
+	A tranzakció közleménye: Rántott hús + Borsó leves
+		Az étel neve: Rántott hús
+		Az étel ára: 2000
+		Az étel elkészítési ideje: 32
+		Az ételben lévő allergének: Glutén
+			Az étterem ID-ja: 1
+			Az étterem címe: Példa cím 1
+			Az étterem neve: Példa étterem 1
+			Az étterem értékelése: 4.5
+		Az étel neve: Borsó leves
+		Az étel ára: 1500
+		Az étel elkészítési ideje: 65
+		Az ételben lévő allergének: Laktóz
+			Az étterem ID-ja: 1
+			Az étterem címe: Példa cím 1
+			Az étterem neve: Példa étterem 1
+			Az étterem értékelése: 4.5
+	A futár ID-ja: 2
+	A futár neve: Sándor
+	A futár helyzete: Tapolca
+	A futár közlekedésének módja: Roller
+
+
+A vevő ID-ja: 3
+A vevő neve: Kopasz János
+A vevő email címe: kopaszjanos@gmail.com
+A vevő telefonszáma: 01234567892
+A vevő címének irányítószáma: 3535
+A vevő városa: Miskolc
+A vevő utcája: Arany János
+A vevő házszáma: 1
+	A rendelés ID-ja: 3
+	A rendelés éttermének ID-ja: 2
+	A rendelés státusza: Aktív
+	A rendelés leadási ideje: 2022-11-10 12:20
+	A rendelés szállítási ideje: 2022-11-11 11:45
+	A tranzakció ID-ja: 3
+	A tranzakció összege: 3500
+	A tranzakció feladója: 333
+	A tranzakció kedvezményezettje: 000
+	A tranzakció közleménye: Hamburger
+		Az étel neve: Hamburger
+		Az étel ára: 2500
+		Az étel elkészítési ideje: 15
+		Az ételben lévő allergének: Glutén, laktóz
+			Az étterem ID-ja: 2
+			Az étterem címe: Példa cím 2
+			Az étterem neve: Példa étterem 2
+			Az étterem értékelése: 3.8
+	A futár ID-ja: 3
+	A futár neve: Shándor
+	A futár helyzete: Egyetem
+	A futár közlekedésének módja: Görkori
+
