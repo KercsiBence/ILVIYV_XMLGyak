@@ -16,6 +16,7 @@
             </cím>
             <rendelések>
                 <rendelés id="1">
+                    <étterem_id>1</étterem_id>
                     <státusz>Aktív</státusz>
                     <leadási_ideje>2022-11-10 14:30</leadási_ideje>
                     <szállítási_ideje>2022-11-10 15:45</szállítási_ideje>
@@ -23,7 +24,7 @@
                         <összeg>4500</összeg>
                         <kitől>111</kitől>
                         <kinek>000</kinek>
-                        <közlemény>Rántott hús</közlemény>
+                        <közlemény>Rántott hús + Töltött káposzta</közlemény>
                     </tranzakció>
                     <ételek>
                         <étel név="Rántott hús">
@@ -43,10 +44,10 @@
                             <elkészítési_idő>65</elkészítési_idő>
                             <allergének>Laktóz</allergének>
                             <éttermek>
-                                <étterem id="2">
-                                    <cím>Példa cím 2</cím>
-                                    <név>Példa étterem 2</név>
-                                    <értékelés>3.8</értékelés>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
                                 </étterem>
                             </éttermek>
                         </étel>
@@ -71,6 +72,7 @@
             </cím>
             <rendelések>
                 <rendelés id="2">
+                    <étterem_id>1</étterem_id>
                     <státusz>Kiszállítás alatt</státusz>
                     <leadási_ideje>2022-11-10 12:20</leadási_ideje>
                     <szállítási_ideje>2022-11-10 16:35</szállítási_ideje>
@@ -78,7 +80,7 @@
                         <összeg>3500</összeg>
                         <kitől>222</kitől>
                         <kinek>000</kinek>
-                        <közlemény>Rántott hús</közlemény>
+                        <közlemény>Rántott hús + Borsó leves</közlemény>
                     </tranzakció>
                     <ételek>
                         <étel név="Rántott hús">
@@ -98,6 +100,11 @@
                             <elkészítési_idő>65</elkészítési_idő>
                             <allergének>Laktóz</allergének>
                             <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
                                 <étterem id="3">
                                     <cím>Példa cím 3</cím>
                                     <név>Példa étterem 3</név>
@@ -126,6 +133,7 @@
             </cím>
             <rendelések>
                 <rendelés id="3">
+                    <étterem_id>2</étterem_id>
                     <státusz>Aktív</státusz>
                     <leadási_ideje>2022-11-10 12:20</leadási_ideje>
                     <szállítási_ideje>2022-11-11 11:45</szállítási_ideje>
@@ -133,7 +141,7 @@
                         <összeg>3500</összeg>
                         <kitől>333</kitől>
                         <kinek>000</kinek>
-                        <közlemény>Rántott hús</közlemény>
+                        <közlemény>Hamburger</közlemény>
                     </tranzakció>
                     <ételek>
                         <étel név="Hamburger">
@@ -145,6 +153,11 @@
                                     <cím>Példa cím 1</cím>
                                     <név>Példa étterem 1</név>
                                     <értékelés>4.5</értékelés>
+                                </étterem>
+                                <étterem id="2">
+                                    <cím>Példa cím 2</cím>
+                                    <név>Példa étterem 2</név>
+                                    <értékelés>3.8</értékelés>
                                 </étterem>
                             </éttermek>
                         </étel>
