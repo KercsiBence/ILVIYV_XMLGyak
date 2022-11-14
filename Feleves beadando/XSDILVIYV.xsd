@@ -13,7 +13,7 @@
                                     <xs:element name="név" type="xs:string"/>
                                     <xs:element name="email" type="xs:string"/>
                                     <xs:element name="telefonszám" type="xs:int"/>
-                                    <xs:element name="cím">
+                                    <xs:element name="cím"> 
                                         <xs:complexType>
                                             <xs:sequence>
                                                 <xs:element name="irányítószám" type="xs:int"/>
@@ -29,6 +29,7 @@
                                                 <xs:element name="rendelés">
                                                     <xs:complexType>
                                                         <xs:sequence>
+                                                            <xs:element name="étterem_id" type="xs:int"/>
                                                             <xs:element name="státusz" type="xs:string"/>
                                                             <xs:element name="leadási_ideje" type="xs:string"/>
                                                             <xs:element name="szállítási_ideje" type="xs:string"/>
@@ -55,7 +56,7 @@
                                                                                     <xs:element name="éttermek">
                                                                                         <xs:complexType>
                                                                                             <xs:sequence>
-                                                                                                <xs:element name="étterem">
+                                                                                                <xs:element name="étterem" maxOccurs="unbounded">
                                                                                                     <xs:complexType>
                                                                                                         <xs:sequence>
                                                                                                             <xs:element name="cím" type="xs:string"/>
