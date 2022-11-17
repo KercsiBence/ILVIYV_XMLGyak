@@ -1,0 +1,26 @@
+
+<?xml-stylesheet href="XSLILVIYV.xsl" type="text/css"?>
+
+<class>
+    <student id ="01">
+        <vezetéknév>Példa</vezetéknév>
+        <keresztnév>Béla</keresztnév>
+        <becenév>Bélus</becenév>
+        <kor>21</kor>
+        <ösztöndíj>2000</ösztöndíj>
+    </student>
+    <student id ="01">
+        <vezetéknév>Vicc</vezetéknév>
+        <keresztnév>Elek</keresztnév>
+        <becenév>Elek</becenév>
+        <kor>22</kor>
+        <ösztöndíj>5000</ösztöndíj>
+    </student>
+    <student id ="01">
+        <vezetéknév>Tréfa</vezetéknév>
+        <keresztnév>János</keresztnév>
+        <becenév>Jancsi</becenév>
+        <kor>22</kor>
+        <ösztöndíj>15000</ösztöndíj>
+    </student>
+</class>
