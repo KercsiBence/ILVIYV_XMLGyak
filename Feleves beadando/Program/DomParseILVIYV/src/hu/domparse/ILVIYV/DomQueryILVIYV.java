@@ -29,6 +29,8 @@ public class DomQueryILVIYV {
 		XPathQuery(expression3,"A 4000-nél drágább rendelések");
 		String expression4="//rendelés[státusz=\"Aktív\"]";
 		XPathQuery(expression4,"Aktív státuszú rendelések");
+		String expression5="//futár[név=\"Sándy\"]";
+		XPathQuery(expression5,"Azok a rendelések amiket Sándy szállít ki");
 
 		FileWriter queryResultFile;
         try

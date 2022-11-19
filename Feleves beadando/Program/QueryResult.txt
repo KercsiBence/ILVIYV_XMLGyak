@@ -37,3 +37,9 @@ Aktuális elem: rendelés
 Aktív státuszú rendelések
 Rendelés ID: 3
 --------------------------------------
+
+
+Aktuális elem: futár
+Azok a rendelések amiket Sándy szállít ki
+Rendelés ID: 1
+--------------------------------------
