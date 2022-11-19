@@ -65,7 +65,6 @@ public class DomQueryILVIYV {
 			
 			for(int i=0;i<nodeList.getLength();i++) {
 				Node node=nodeList.item(i);
-				text+="\nAktuális elem: "+node.getNodeName()+"\n";
 				
 				if(node.getNodeType()==Node.ELEMENT_NODE && node.getNodeName().equals("rendelés"));{
 					Element element=(Element) node;
