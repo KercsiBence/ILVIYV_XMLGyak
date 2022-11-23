@@ -1,0 +1,45 @@
+{
+    "_id":"ILVIYV",
+    "vizsgák":
+        {"vizsga":
+        [
+            {
+            "kurzus":"Adatkezelés_XMLben",
+            "helyszín":"12 ea.",
+            "időpont":
+                {
+                "nap":"Kedd",
+                "tol":"12:00",
+                "ig":"14:00"
+                },
+            "oktató":"Bednarik László",
+            "jegy":"5"
+            },
+            {
+            "kurzus":"Számtógépes grafika",
+            "helyszín":"23 ea.",
+            "időpont":
+                {
+                "nap":"Szerda",
+                "tol":"10:00",
+                "ig":"14:00"
+                },
+            "oktató":"Piller Imre",
+            "jegy":"2"
+            },
+            {
+            "kurzus":"Mesterséges Intelligencia",
+            "helyszín":"2 ea.",
+            "időpont":
+                {
+                "nap":"Kedd",
+                "tol":"8:00",
+                "ig":"9:00"
+                },
+            "oktató":"Kunné Dr. Tamás Judit",
+            "jegy":"2"
+            }
+        ]
+        }
+    
+}

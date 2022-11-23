@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type='text/xsl' href='ILVIYV_XSL.xsl'?>
+<root id='ILVIYV'>
+  <vizsgák>
+    <vizsga>
+      <kurzus>Adatkezelés_XMLben</kurzus>
+      <helyszín>12 ea.</helyszín>
+      <időpont>
+        <nap>Kedd</nap>
+        <tol>12:00</tol>
+        <ig>14:00</ig>
+      </időpont>
+      <oktató>Bednarik László</oktató>
+      <jegy>5</jegy>
+    </vizsga>
+    <vizsga>
+      <kurzus>Számtógépes grafika</kurzus>
+      <helyszín>23 ea.</helyszín>
+      <időpont>
+        <nap>Szerda</nap>
+        <tol>10:00</tol>
+        <ig>14:00</ig>
+      </időpont>
+      <oktató>Piller Imre</oktató>
+      <jegy>2</jegy>
+    </vizsga>
+    <vizsga>
+      <kurzus>Mesterséges Intelligencia</kurzus>
+      <helyszín>2 ea.</helyszín>
+      <időpont>
+        <nap>Kedd</nap>
+        <tol>8:00</tol>
+        <ig>9:00</ig>
+      </időpont>
+      <oktató>Kunné Dr. Tamás Judit</oktató>
+      <jegy>2</jegy>
+    </vizsga>
+  </vizsgák>
+</root>
