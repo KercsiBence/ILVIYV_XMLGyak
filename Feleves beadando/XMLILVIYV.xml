@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <XMLILVIYV>
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="XSDILVIYV.xsd">
+    <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDILVIYV.xsd"> -->
     <vevők>
         <vevő id="1">
             <név>Kércsi Bence</név>
@@ -159,6 +159,16 @@
                                     <név>Példa étterem 2</név>
                                     <értékelés>3.8</értékelés>
                                 </étterem>
+                                <étterem id="4">
+                                    <cím>Példa cím 4</cím>
+                                    <név>Példa étterem 4</név>
+                                    <értékelés>3.3</értékelés>
+                                </étterem>
+                                <étterem id="5">
+                                    <cím>Példa cím 5</cím>
+                                    <név>Példa étterem 5</név>
+                                    <értékelés>2.4</értékelés>
+                                </étterem>
                             </éttermek>
                         </étel>
                     </ételek>
@@ -166,6 +176,114 @@
                         <név>Shándor</név>
                         <helyzet>Egyetem</helyzet>
                         <közlekedés>Görkori</közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+        <vevő id="4">
+            <név>Szabó Renáta</név>
+            <email>szaborenata@gmail.com</email>
+            <telefonszám>01234567865</telefonszám>
+            <cím>
+                <irányítószám>3529</irányítószám>
+                <város>Miskolc</város>
+                <utca>Arany János tér</utca>
+                <házszám>12</házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="4">
+                    <étterem_id>2</étterem_id>
+                    <státusz>Aktív</státusz>
+                    <leadási_ideje>2022-11-10 12:19</leadási_ideje>
+                    <szállítási_ideje>2022-11-11 11:46</szállítási_ideje>
+                    <tranzakció id="4">
+                        <összeg>3500</összeg>
+                        <kitől>444</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Hamburger</közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="Hamburger">
+                            <ár>2500</ár>
+                            <elkészítési_idő>15</elkészítési_idő>
+                            <allergének>Glutén, laktóz</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                                <étterem id="2">
+                                    <cím>Példa cím 2</cím>
+                                    <név>Példa étterem 2</név>
+                                    <értékelés>3.8</értékelés>
+                                </étterem>
+                                <étterem id="4">
+                                    <cím>Példa cím 4</cím>
+                                    <név>Példa étterem 4</név>
+                                    <értékelés>3.3</értékelés>
+                                </étterem>
+                                <étterem id="5">
+                                    <cím>Példa cím 5</cím>
+                                    <név>Példa étterem 5</név>
+                                    <értékelés>2.4</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="4">
+                        <név>Jóska</név>
+                        <helyzet>Tapolca</helyzet>
+                        <közlekedés>Gyalog</közlekedés>
+                    </futár>
+                </rendelés>
+            </rendelések>
+        </vevő>
+        <vevő id="5">
+            <név>Kércsi Tibor</név>
+            <email>kercsitibor@gmail.com</email>
+            <telefonszám>01234567823</telefonszám>
+            <cím>
+                <irányítószám>3860</irányítószám>
+                <város>Encs</város>
+                <utca>Jókai út</utca>
+                <házszám>13</házszám>
+            </cím>
+            <rendelések>
+                <rendelés id="5">
+                    <étterem_id>3</étterem_id>
+                    <státusz>Aktív</státusz>
+                    <leadási_ideje>2022-11-11 12:19</leadási_ideje>
+                    <szállítási_ideje>2022-11-12 11:46</szállítási_ideje>
+                    <tranzakció id="5">
+                        <összeg>1500</összeg>
+                        <kitől>555</kitől>
+                        <kinek>000</kinek>
+                        <közlemény>Borsó leves</közlemény>
+                    </tranzakció>
+                    <ételek>
+                        <étel név="Borsó leves">
+                            <ár>1500</ár>
+                            <elkészítési_idő>65</elkészítési_idő>
+                            <allergének>Laktóz</allergének>
+                            <éttermek>
+                                <étterem id="1">
+                                    <cím>Példa cím 1</cím>
+                                    <név>Példa étterem 1</név>
+                                    <értékelés>4.5</értékelés>
+                                </étterem>
+                                <étterem id="3">
+                                    <cím>Példa cím 3</cím>
+                                    <név>Példa étterem 3</név>
+                                    <értékelés>4.1</értékelés>
+                                </étterem>
+                            </éttermek>
+                        </étel>
+                    </ételek>
+                    <futár id="5">
+                        <név>Pista</név>
+                        <helyzet>Szikszó</helyzet>
+                        <közlekedés>Autó</közlekedés>
                     </futár>
                 </rendelés>
             </rendelések>
